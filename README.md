@@ -267,21 +267,9 @@ The project includes sample CSV files for testing:
 
 Use `SampleData.py` to load sample data into your Snowflake database.
 
-## 🤝 Contributing
 
-1. Create a feature branch: `git checkout -b feature/your-feature`
-2. Commit changes: `git commit -am 'Add new feature'`
-3. Push to branch: `git push origin feature/your-feature`
-4. Submit a pull request
-
+ 
 ## 📄 License
 
-[Your License Here]
-
-## 👥 Support
-
-For support, email [your-email] or create an issue in the repository.
-
----
-
-**Built with ❤️ using FastAPI, Snowflake, and Azure**
+This project is proprietary software developed for BlendX.
+ 
