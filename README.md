@@ -25,8 +25,8 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
-cd backend
+git clone https://github.com/satya-blend360/ReTrace_BlendX_Backend
+cd ReTrace_BlendX_Backend
 ```
 
 ### 2. Create Virtual Environment
