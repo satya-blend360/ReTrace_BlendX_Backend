@@ -1,0 +1,25 @@
+{
+  "aliases": {
+    "js": "javascript",
+    "ts": "typescript",
+    "c++": "cpp",
+    ".net": "asp.net core",
+    "postgres": "postgresql",
+    "sklearn": "scikit-learn",
+    "tf": "tensorflow",
+    "nextjs": "next.js",
+    "reactjs": "react",
+    "opensearch vector": "opensearch knn"
+  },
+  "software_development": ["python","javascript","typescript","java","csharp","go","kotlin","swift","c","cpp",
+    "fastapi","flask","django","spring boot","node.js","express","nestjs","asp.net core",
+    "react","next.js","angular","vue","rest","graphql","grpc","docker","postgresql","mysql","mongodb",
+    "redis","kafka","rabbitmq","aws","lambda","api gateway","ecs","eks","terraform","github actions"],
+  "data_engineering": ["airflow","dagster","prefect","dbt","spark","pyspark","databricks","flink","emr",
+    "kinesis","snowflake","redshift","bigquery","s3","parquet","delta lake","iceberg","hudi"],
+  "data_science": ["numpy","pandas","scikit-learn","xgboost","lightgbm","catboost","pytorch","tensorflow",
+    "transformers","spacy","nltk","mlflow","weights & biases"],
+  "business_intelligence": ["sql","tableau","power bi","looker","superset","metabase","lookml","dax"],
+  "ai_engineering": ["rag","embeddings","reranking","langchain","llamaindex","faiss","pgvector",
+    "pinecone","weaviate","qdrant","sagemaker","bedrock","bedrock agents","knowledge bases","trulens","ragas"]
+}

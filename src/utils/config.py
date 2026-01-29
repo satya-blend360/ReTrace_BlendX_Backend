@@ -1,0 +1,43 @@
+from dotenv import load_dotenv
+import os
+from urllib.parse import urlparse
+
+load_dotenv()
+
+SSO_CLIENT_ID = os.getenv("SSO_CLIENT_ID")
+SSO_CLIENT_SECRET = os.getenv("SSO_CLIENT_SECRET")
+SSO_TENANT_ID = os.getenv("SSO_TENANT_ID")
+
+IT_COMMS_MAIL = os.getenv("IT_COMMS_MAIL")
+
+AD_CLIENT_ID = os.getenv("AD_CLIENT_ID")
+AD_CLIENT_SECRET = os.getenv("AD_CLIENT_SECRET")
+AD_TENANT_ID = os.getenv("AD_TENANT_ID")
+
+APP_USERS_GROUP_ID = os.getenv("APP_USERS_GROUP_ID")
+
+AD_PREMIUM_SKU_ID = os.getenv("AD_PREMIUM_SKU_ID")
+AD_E3_SKU_ID = os.getenv("AD_E3_SKU_ID")
+AD_TEAMS_SKU_ID = os.getenv("AD_TEAMS_SKU_ID")
+
+REDIRECT_URI = os.getenv("REDIRECT_URI")
+JWT_EXPECTED_AUDIENCE = os.getenv("JWT_EXPECTED_AUDIENCE")
+JWT_SECRET = os.getenv("JWT_SECRET")
+
+SF_ACCOUNT = os.getenv("SF_ACCOUNT")
+SF_USER = os.getenv("SF_USER")
+SF_PASSWORD = os.getenv("SF_PASSWORD")
+SF_DATABASE = os.getenv("SF_DATABASE")
+SF_SCHEMA = os.getenv("SF_SCHEMA")
+SF_WAREHOUSE = os.getenv("SF_WAREHOUSE")
+SF_ROLE = os.getenv("SF_ROLE")
+
+RETRACE_USER = "RETRACE_USER"
+SF_ONBOARD_INFO_TABLE = "USER_ONBOARD"
+SF_OFFBOARD_INFO_TABLE = "USER_OFFBOARD"
+SF_APP_CONFIG_TABLE = "APP_CONFIG"
+SF_REHIRE_USER_INFO_TABLE = "USER_REHIRE"
+
+ENVIRONMENT = os.getenv("ENVIRONMENT")
+
+FRONT_END_URI = f"{urlparse(REDIRECT_URI).scheme}://{urlparse(REDIRECT_URI).netloc}"
